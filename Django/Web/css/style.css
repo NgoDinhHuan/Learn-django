@@ -1,0 +1,79 @@
+/* h5{
+    color:rgb(199, 18, 18)
+}
+
+#td6{
+    color: white;
+}
+.td7{
+    color: yellow;
+
+}
+
+.vuong{
+
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    }
+     
+      */
+        body
+    {
+        margin: 0 auto; /* canh bố cục đều 2 bên */
+        width: 800px;
+    }
+    
+    .wrap
+    {
+        width: 800px; /* kích thước chiều rộng trang web */
+       
+    }
+    
+   
+    #header 
+    {
+        width: 800px; /* kích thước chiều rộng trang web */
+        height: 200px;
+        background-color: yellow; /* tạo màu để dễ nhìn */
+    }
+
+    .main
+    {
+        width: 800px; /* kích thước chiều rộng trang web */
+        height: 100px;
+    }
+    .menu{
+        width: 800px;
+        height: 100px;
+        background-color: blueviolet;
+    }
+    .nav
+    {
+        width: 300px; /* kích thước chiều rộng của vùng thanh bên */
+        height: 400px;
+        float: left;
+        background-color: lightgreen; /* tạo màu để dễ nhìn */
+    }
+    
+    .content
+    {
+        width: 500px; /* kích thước chiều rộng của vùng nội dung */
+        height: 400px;
+        float: left;
+        background-color: lightblue; /* tạo màu để dễ nhìn */
+    }
+    
+    #footer
+    {
+        width: 800px; /* kích thước chiều rộng của vùng nội dung */
+        height: 150px;
+        float: left; /* canh div từ trái sang */
+        background-color: pink; /* tạo màu để dễ nhìn */
+    }
+    

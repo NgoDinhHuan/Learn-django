@@ -1,0 +1,165 @@
+body{
+    background-image: linear-gradient(rgb(247, 238, 238),rgb(221, 183, 99));
+}
+
+
+.container{
+    border: solid 1px black;
+    width: 95%;
+    margin: auto;
+    height:auto;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.header{
+    width: 100%; 
+    height: 100px;
+    display: flex;
+}
+
+.hleft{
+    min-width: 100px;
+    height: 100%;
+    margin-right: 20px
+    
+}
+
+.hright{
+    width: 80%;
+    height: 100%; 
+    
+}
+.hright>h1{
+    margin-bottom: 5px;
+
+}
+.hright>p{
+    margin-top: 0px;
+}
+.hleft>img{
+    height: 100px;
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(218, 125, 43);
+}
+.center{
+    display: flex ;
+}
+
+.left{
+    width: 60%;
+    min-height: 300px;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 50%;
+    min-height: 300px;
+ 
+
+}
+.cen-lef-left{
+    width: 45%;
+    min-height: 300px;
+   
+}
+.cen-lef-left>img{
+    width: 100%;
+}
+
+.cen-lef-right{
+    width: 50%;
+    min-height: 700px;
+    
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+hr{
+    border: solid 1px rgb(236, 194, 194);
+}
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+ul,li{
+    list-style-type: none;
+}
+.parent li{
+    position: relative;
+    display: inline-block;
+}
+li{
+    width: 50px;
+    height: 100%;
+    
+    margin-right: 5px;
+}
+ul{
+    padding: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #63ade1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #23be38;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(41, 24, 194, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  iframe{
+    width: 300px;
+  }
